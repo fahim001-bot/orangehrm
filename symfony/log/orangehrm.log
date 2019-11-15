@@ -1,0 +1,1617 @@
+[18-Jun-2019 11:38:38 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:41:18 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:45:50 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:13 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:26 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:30 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:32 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:35 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:37 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/apps/orangehrm/templates/_copyright.php on line 9
+[18-Jun-2019 11:46:40 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php on line 91
+[18-Jun-2019 11:46:40 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/config/sfCompileConfigHandler.class.php on line 77
+[18-Jun-2019 11:46:40 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/config/sfDefineEnvironmentConfigHandler.class.php on line 66
+[18-Jun-2019 11:46:40 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/config/sfDefineEnvironmentConfigHandler.class.php on line 66
+Tue 18 Jun 2019 12:25:01 PM UTC,901 [15905] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'ServiceException' with message 'Leave Period Start date is not defined' in /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeavePeriodService.php:315
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeavePeriodService.php(369): LeavePeriodService->getGeneratedLeavePeriodList(NULL, false)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/entitlement/FIFOEntitlementConsumptionStrategy.php(706): LeavePeriodService->getCurrentLeavePeriodByDate('2019-06-18')
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeaveEntitlementService.php(170): FIFOEntitlementConsumptionStrategy->getLeavePeriod('2019-06-18', '1', 'undefined')
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/modules/leave/actions/getLeaveBalanceAjaxAction.class.php(177): LeaveEntitlementService->getLeaveBalance('1', 'undefined', '2019-06-18', NULL)
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): getLeaveBalanceAjaxAction->execute(Object(sfWebRequest))
+#5 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(getLeaveBalanceAjaxAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(getLeaveBalanceAjaxAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(getLeaveBalanceAjaxAction))
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#28 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('leave', 'getLeaveBalance...')
+#29 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#30 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#31 {main}
+Tue 18 Jun 2019 12:51:43 PM UTC,546 [16084] INFO core.email - ========== Message Begins ==========
+
+Time : June 18, 2019, 12:51 pm
+Message Type : Success
+Message : Emails was sent to tauseef.asghar@eurekatechnologystudio.com using smtp
+
+========== Message Ends ==========
+
+
+[19-Jun-2019 11:05:39 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:06:26 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:06:31 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:06:39 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:06:46 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:06:52 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:07:04 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jun-2019 11:07:12 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+Wed 19 Jun 2019 11:37:00 AM UTC,717 [21282] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'ServiceException' with message 'Leave Period Start date is not defined' in /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeavePeriodService.php:315
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeavePeriodService.php(369): LeavePeriodService->getGeneratedLeavePeriodList(NULL, false)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/entitlement/FIFOEntitlementConsumptionStrategy.php(706): LeavePeriodService->getCurrentLeavePeriodByDate('2019-06-19')
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/lib/service/LeaveEntitlementService.php(170): FIFOEntitlementConsumptionStrategy->getLeavePeriod('2019-06-19', '11', 'undefined')
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmLeavePlugin/modules/leave/actions/getLeaveBalanceAjaxAction.class.php(177): LeaveEntitlementService->getLeaveBalance('11', 'undefined', '2019-06-19', NULL)
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): getLeaveBalanceAjaxAction->execute(Object(sfWebRequest))
+#5 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(getLeaveBalanceAjaxAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(getLeaveBalanceAjaxAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(getLeaveBalanceAjaxAction))
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#28 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('leave', 'getLeaveBalance...')
+#29 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#30 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#31 {main}
+Thu 20 Jun 2019 01:09:57 PM UTC,188 [25837] ERROR orangehrm - 0 : cURL error 7: couldn't connect to host (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+Thu 20 Jun 2019 01:09:57 PM UTC,189 [25837] ERROR orangehrm - #0 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(150): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Client.php(275): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Client.php(129): GuzzleHttp\Client->requestAsync('post', '/oauth/v2/token', Array)
+#13 /var/www/html/orangehrm/symfony/lib/vendor/guzzlehttp/guzzle/src/Client.php(87): GuzzleHttp\Client->request('post', '/oauth/v2/token', Array)
+#14 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/lib/manager/APIManagerService.php(155): GuzzleHttp\Client->__call('post', Array)
+#15 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/lib/manager/APIManagerService.php(155): GuzzleHttp\Client->post('/oauth/v2/token', Array)
+#16 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/lib/manager/APIManagerService.php(72): APIManagerService->getApiToken()
+#17 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/lib/manager/APIManagerService.php(62): APIManagerService->getAddonsFromMP()
+#18 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/modules/marketPlace/actions/baseAddonAction.class.php(84): APIManagerService->getAddons()
+#19 /var/www/html/orangehrm/symfony/plugins/orangehrmMarketPlacePlugin/modules/marketPlace/actions/ohrmAddonsAction.class.php(52): baseAddonAction->getAddons()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): ohrmAddonsAction->execute(Object(sfWebRequest))
+#21 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(ohrmAddonsAction))
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(ohrmAddonsAction))
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(ohrmAddonsAction))
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#27 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#28 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#29 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#30 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#31 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#32 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#33 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#34 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#35 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#36 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#37 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#38 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#39 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#40 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#41 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#42 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#43 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#44 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('marketPlace', 'ohrmAddons')
+#45 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#46 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#47 {main}
+Fri 05 Jul 2019 09:49:07 AM UTC,282 [1919] INFO core.email - ========== Message Begins ==========
+
+Time : July 5, 2019, 9:49 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+[08-Jul-2019 06:10:50 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[11-Jul-2019 09:07:06 UTC] Action "index/index" does not exist.
+[11-Jul-2019 09:07:06 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[11-Jul-2019 09:09:57 UTC] Action "index/index" does not exist.
+[11-Jul-2019 09:09:57 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[11-Jul-2019 09:23:44 UTC] Action "index/index" does not exist.
+[11-Jul-2019 09:23:44 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[11-Jul-2019 09:40:01 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[11-Jul-2019 09:41:38 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[11-Jul-2019 09:42:57 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[11-Jul-2019 09:44:43 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[11-Jul-2019 09:45:06 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[11-Jul-2019 10:00:36 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[15-Jul-2019 10:18:29 UTC] Action "index/index" does not exist.
+[15-Jul-2019 10:18:29 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[15-Jul-2019 10:18:38 UTC] Action "index/index" does not exist.
+[15-Jul-2019 10:18:38 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[16-Jul-2019 07:52:12 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Jul-2019 09:47:50 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[16-Jul-2019 09:47:56 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[16-Jul-2019 09:48:10 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[16-Jul-2019 09:48:21 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form" (/).
+[16-Jul-2019 10:34:36 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Jul-2019 10:34:40 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+Tue 16 Jul 2019 12:01:22 PM UTC,204 [21756] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mansoor' for key 'user_name'' in /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php:1090
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/Statement.php(284): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(1050): Doctrine_Connection_Statement->execute(Array)
+#2 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(695): Doctrine_Connection->exec('INSERT INTO ohr...', Array)
+#3 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(SystemUserTable), Array)
+#4 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(571): Doctrine_Connection_UnitOfWork->processSingleInsert(Object(SystemUser))
+#5 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(81): Doctrine_Connection_UnitOfWork->insert(Object(SystemUser))
+#6 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Record.php(1718): Doctrine_Connection_UnitOfWork->saveGraph(Object(SystemUser))
+#7 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php(31): Doctrine_Record->save()
+#8 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#12 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#28 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#29 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#30 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#31 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#32 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#33 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#35 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#36 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#37 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#38 {main}
+
+Next exception 'DaoException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mansoor' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php:34
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#4 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#8 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#9 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#12 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#14 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#28 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#29 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#30 {main}
+
+Next exception 'ServiceException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mansoor' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php:71
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#27 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#28 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#29 {main}
+[16-Jul-2019 12:01:22 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/themes/default/images/error-btn.png" (/).
+Tue 16 Jul 2019 12:11:00 PM UTC,150 [1894] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mustafa' for key 'user_name'' in /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php:1090
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/Statement.php(284): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(1050): Doctrine_Connection_Statement->execute(Array)
+#2 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(695): Doctrine_Connection->exec('INSERT INTO ohr...', Array)
+#3 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(SystemUserTable), Array)
+#4 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(571): Doctrine_Connection_UnitOfWork->processSingleInsert(Object(SystemUser))
+#5 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(81): Doctrine_Connection_UnitOfWork->insert(Object(SystemUser))
+#6 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Record.php(1718): Doctrine_Connection_UnitOfWork->saveGraph(Object(SystemUser))
+#7 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php(31): Doctrine_Record->save()
+#8 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#12 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#28 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#29 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#30 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#31 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#32 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#33 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#35 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#36 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#37 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#38 {main}
+
+Next exception 'DaoException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mustafa' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php:34
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#4 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#8 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#9 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#12 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#14 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#28 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#29 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#30 {main}
+
+Next exception 'ServiceException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Mustafa' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php:71
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#27 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#28 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#29 {main}
+[16-Jul-2019 12:11:00 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/themes/default/images/error-btn.png" (/).
+Tue 16 Jul 2019 12:20:24 PM UTC,906 [21753] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php:1090
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/Statement.php(284): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(1050): Doctrine_Connection_Statement->execute(Array)
+#2 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(695): Doctrine_Connection->exec('INSERT INTO ohr...', Array)
+#3 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(SystemUserTable), Array)
+#4 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(571): Doctrine_Connection_UnitOfWork->processSingleInsert(Object(SystemUser))
+#5 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(81): Doctrine_Connection_UnitOfWork->insert(Object(SystemUser))
+#6 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Record.php(1718): Doctrine_Connection_UnitOfWork->saveGraph(Object(SystemUser))
+#7 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php(31): Doctrine_Record->save()
+#8 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#12 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#28 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#29 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#30 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#31 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#32 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#33 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#35 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#36 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#37 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#38 {main}
+
+Next exception 'DaoException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php:34
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#4 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#8 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#9 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#12 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#14 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#28 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#29 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#30 {main}
+
+Next exception 'ServiceException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php:71
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#27 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#28 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#29 {main}
+Tue 16 Jul 2019 12:20:26 PM UTC,558 [19679] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'Doctrine_Connection_Mysql_Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php:1090
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/Statement.php(284): Doctrine_Connection->rethrowException(Object(PDOException), Object(Doctrine_Connection_Statement))
+#1 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(1050): Doctrine_Connection_Statement->execute(Array)
+#2 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection.php(695): Doctrine_Connection->exec('INSERT INTO ohr...', Array)
+#3 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(647): Doctrine_Connection->insert(Object(SystemUserTable), Array)
+#4 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(571): Doctrine_Connection_UnitOfWork->processSingleInsert(Object(SystemUser))
+#5 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Connection/UnitOfWork.php(81): Doctrine_Connection_UnitOfWork->insert(Object(SystemUser))
+#6 /var/www/html/orangehrm/symfony/lib/vendor/lexpress/doctrine1/lib/Doctrine/Record.php(1718): Doctrine_Connection_UnitOfWork->saveGraph(Object(SystemUser))
+#7 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php(31): Doctrine_Record->save()
+#8 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#12 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#28 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#29 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#30 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#31 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#32 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#33 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#35 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#36 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#37 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#38 {main}
+
+Next exception 'DaoException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/dao/SystemUserDao.php:34
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php(68): SystemUserDao->saveSystemUser(Object(SystemUser))
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#2 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#4 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#7 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#8 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#9 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#10 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#11 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#12 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#13 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#14 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#15 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#16 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#17 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#18 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#19 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#20 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#21 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#22 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#27 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#28 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#29 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#30 {main}
+
+Next exception 'ServiceException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Salman' for key 'user_name'' in /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/service/SystemUserService.php:71
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/lib/form/SystemUserForm.php(152): SystemUserService->saveSystemUser(Object(SystemUser), true)
+#1 /var/www/html/orangehrm/symfony/plugins/orangehrmAdminPlugin/modules/admin/actions/saveSystemUserAction.class.php(132): SystemUserForm->save()
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(971): saveSystemUserAction->execute(Object(sfWebRequest))
+#3 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmExecutionFilter.php(42): sfExecutionFilter->executeAction(Object(saveSystemUserAction))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(966): orangehrmExecutionFilter->executeAction(Object(saveSystemUserAction))
+#5 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(952): sfExecutionFilter->handleAction(Object(sfFilterChain), Object(saveSystemUserAction))
+#6 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfCommonFilter->execute(Object(sfFilterChain))
+#9 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/filter/orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ModuleFilter.php(56): sfFilterChain->execute()
+#12 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ModuleFilter->execute(Object(sfFilterChain))
+#13 /var/www/html/orangehrm/symfony/plugins/orangehrmCorePlugin/lib/authorization/filter/ohrmAuthorizationFilter.php(101): sfFilterChain->execute()
+#14 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 /var/www/html/orangehrm/symfony/apps/orangehrm/lib/filter/ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(72): sfFilterChain->execute()
+#22 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#23 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#24 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#25 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#26 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(2782): sfController->forward('admin', 'saveSystemUser')
+#27 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/util/sfContext.class.php(173): sfFrontWebController->dispatch()
+#28 /var/www/html/orangehrm/symfony/web/index.php(22): sfContext->dispatch()
+#29 {main}
+Wed 17 Jul 2019 08:45:44 AM UTC,057 [1954] INFO core.email - ========== Message Begins ==========
+
+Time : July 17, 2019, 8:45 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Wed 17 Jul 2019 08:46:40 AM UTC,972 [1958] INFO core.email - ========== Message Begins ==========
+
+Time : July 17, 2019, 8:46 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Wed 17 Jul 2019 08:47:42 AM UTC,283 [1957] INFO core.email - ========== Message Begins ==========
+
+Time : July 17, 2019, 8:47 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+[17-Jul-2019 11:19:40 UTC] PHP Fatal error:  Call to a member function getFullName() on boolean in /var/www/html/orangehrm/symfony/plugins/orangehrmPimPlugin/lib/form/EmployeePersonalDetailsForm.php on line 78
+[17-Jul-2019 11:19:43 UTC] PHP Fatal error:  Call to a member function getFullName() on boolean in /var/www/html/orangehrm/symfony/plugins/orangehrmPimPlugin/lib/form/EmployeePersonalDetailsForm.php on line 78
+Wed 17 Jul 2019 11:33:57 AM UTC,772 [1956] INFO core.email - ========== Message Begins ==========
+
+Time : July 17, 2019, 11:33 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Wed 17 Jul 2019 11:34:42 AM UTC,241 [1953] INFO core.email - ========== Message Begins ==========
+
+Time : July 17, 2019, 11:34 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+[18-Jul-2019 11:33:03 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jul-2019 06:40:32 UTC] Action "index/index" does not exist.
+[19-Jul-2019 06:40:32 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[19-Jul-2019 07:17:50 UTC] Action "index/index" does not exist.
+[19-Jul-2019 07:17:50 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[19-Jul-2019 07:18:18 UTC] Action "index/index" does not exist.
+[19-Jul-2019 07:18:18 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+Fri 19 Jul 2019 07:25:23 AM UTC,669 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,691 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,713 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,734 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,797 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,818 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,839 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,860 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,882 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,944 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,966 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:23 AM UTC,988 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,010 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,031 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,095 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,116 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,138 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,171 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,193 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,256 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,278 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,299 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,320 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,341 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,404 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,447 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,468 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,490 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,553 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,574 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,595 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,616 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,638 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,701 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,722 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,744 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,765 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,787 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,850 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,872 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,894 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,915 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:24 AM UTC,936 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,002 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,023 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,045 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,081 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,103 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,166 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,188 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,209 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,231 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,252 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,316 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,337 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,359 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,381 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,402 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,475 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,501 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,529 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,556 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,583 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,657 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,681 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,706 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,731 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,757 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,837 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,862 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,887 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,912 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:25 AM UTC,939 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,017 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,042 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,067 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,108 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,131 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,202 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,228 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,253 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,278 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,303 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,380 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,405 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,456 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,481 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,556 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,584 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,610 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,637 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,662 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,737 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,762 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,789 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,815 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,844 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,921 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,947 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,972 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:26 AM UTC,997 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,023 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,099 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,125 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,151 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,176 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,218 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,287 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,338 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,364 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,389 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,463 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,489 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,515 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,541 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,566 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,641 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,666 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,691 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,716 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,744 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,822 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,848 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,874 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,899 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:27 AM UTC,924 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,002 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,029 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,054 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,079 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,105 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,181 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,206 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,231 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,257 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,299 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,368 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,392 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,418 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,443 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,469 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,544 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,570 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,595 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,620 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,647 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,723 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,748 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,773 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,798 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,823 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,902 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,929 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,955 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:28 AM UTC,980 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,006 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,108 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,162 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,187 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,266 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,291 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,316 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,341 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,367 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,453 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,478 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,503 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,528 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,554 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,629 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,655 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,680 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,706 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,731 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,859 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,885 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,911 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:29 AM UTC,988 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,017 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,044 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,072 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,099 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,174 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,199 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,224 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,250 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,278 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,353 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,379 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,404 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,429 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,455 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,543 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,568 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,593 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,618 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,644 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,719 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,745 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,770 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,796 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,821 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,896 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,922 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,949 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:30 AM UTC,976 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,001 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,076 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,102 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,127 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,152 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,178 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,260 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,286 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,312 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,337 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,363 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,441 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,467 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,493 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,518 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,544 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,635 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,658 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,683 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,707 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,732 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,808 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,833 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,859 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,884 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,910 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:31 AM UTC,984 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,009 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,034 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,059 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,086 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,162 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,188 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,213 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,238 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,263 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,342 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,367 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,393 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,419 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,444 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,523 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,548 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,600 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,626 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,718 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:25:32 AM UTC,741 [1974] ERROR leave.LeaveApplicationService - No workflow item found for APPLY leave action!
+Fri 19 Jul 2019 07:39:25 AM UTC,005 [1974] INFO core.email - ========== Message Begins ==========
+
+Time : July 19, 2019, 7:39 am
+Message Type : Success
+Message : Leave application email was sent to nabeel@bigimmersive.com
+
+========== Message Ends ==========
+
+
+[19-Jul-2019 07:40:00 UTC] Action "index/index" does not exist.
+[19-Jul-2019 07:40:00 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+Fri 19 Jul 2019 07:40:41 AM UTC,176 [1974] INFO core.email - ========== Message Begins ==========
+
+Time : July 19, 2019, 7:40 am
+Message Type : Success
+Message : Leave application email was sent to ramail.amjad@bigimmersive.com
+
+========== Message Ends ==========
+
+
+[19-Jul-2019 11:49:12 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[19-Jul-2019 11:54:11 UTC] Action "index/index" does not exist.
+[19-Jul-2019 11:54:11 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[19-Jul-2019 11:55:12 UTC] Action "index/index" does not exist.
+[19-Jul-2019 11:55:12 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[22-Jul-2019 09:57:22 UTC] Action "index/index" does not exist.
+[22-Jul-2019 09:57:23 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[22-Jul-2019 09:58:15 UTC] Action "index/index" does not exist.
+[22-Jul-2019 09:58:15 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+Fri 26 Jul 2019 09:46:06 AM UTC,365 [2033] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:46 am
+Message Type : Success
+Message : Leave application email was sent to naveed.iqbal@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:46:32 AM UTC,215 [2029] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:46 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:46:48 AM UTC,763 [2032] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:46 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:47:05 AM UTC,758 [2027] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:47 am
+Message Type : Success
+Message : Leave application email was sent to sabhi@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:47:31 AM UTC,895 [27816] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:47 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:47:46 AM UTC,869 [2031] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:47 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:48:05 AM UTC,315 [2026] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:48 am
+Message Type : Success
+Message : Leave application email was sent to armaghan@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:48:19 AM UTC,720 [1162] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:48 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:51:47 AM UTC,488 [2031] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:51 am
+Message Type : Success
+Message : Leave application email was sent to sabhi@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:52:01 AM UTC,981 [2033] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:52 am
+Message Type : Success
+Message : Leave application email was sent to shahroze@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:52:33 AM UTC,776 [1162] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:52 am
+Message Type : Success
+Message : Leave application email was sent to maavia.kamran@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:52:46 AM UTC,828 [2027] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:52 am
+Message Type : Success
+Message : Leave application email was sent to ikram@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:53:23 AM UTC,151 [2027] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:53 am
+Message Type : Success
+Message : Leave application email was sent to yasir@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:53:40 AM UTC,401 [2032] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:53 am
+Message Type : Success
+Message : Leave application email was sent to shahroze@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:54:06 AM UTC,093 [2026] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:54 am
+Message Type : Success
+Message : Leave application email was sent to armaghan@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Fri 26 Jul 2019 09:55:34 AM UTC,204 [2029] INFO core.email - ========== Message Begins ==========
+
+Time : July 26, 2019, 9:55 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:14 AM UTC,881 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to shahroze@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:19 AM UTC,705 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to mohammad.zeeshan@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:24 AM UTC,175 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to yasir.javaid@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:28 AM UTC,684 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to armaghan@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:33 AM UTC,188 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:37 AM UTC,801 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to sabhi@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:42 AM UTC,430 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to maavia.kamran@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:47 AM UTC,198 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:51 AM UTC,589 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:40:56 AM UTC,162 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:40 am
+Message Type : Success
+Message : Leave application email was sent to shahroze@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:02 AM UTC,822 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to aqib.ali@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:07 AM UTC,592 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:12 AM UTC,299 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to bilal.afzal@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:16 AM UTC,878 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:21 AM UTC,388 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:25 AM UTC,975 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:30 AM UTC,805 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:35 AM UTC,375 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to ikram@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:39 AM UTC,936 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to shahroze@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:44 AM UTC,678 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to armaghan@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:49 AM UTC,178 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to armaghan@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 29 Jul 2019 10:41:53 AM UTC,728 [11664] INFO core.email - ========== Message Begins ==========
+
+Time : July 29, 2019, 10:41 am
+Message Type : Success
+Message : Leave application email was sent to ameer.hamza@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Thu 01 Aug 2019 07:43:11 AM UTC,912 [1995] INFO core.email - ========== Message Begins ==========
+
+Time : August 1, 2019, 7:43 am
+Message Type : Success
+Message : Emails was sent to naveed.iqbal@rebeltechnology.io using smtp
+
+========== Message Ends ==========
+
+
+[01-Aug-2019 07:48:21 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 07:49:42 UTC] Action "leave/viewleaverequest" does not exist.
+[01-Aug-2019 07:49:42 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[01-Aug-2019 07:49:43 UTC] Action "leave/viewleaverequest" does not exist.
+[01-Aug-2019 07:49:43 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[01-Aug-2019 07:50:58 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 07:52:31 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+Thu 01 Aug 2019 07:54:45 AM UTC,275 [8510] INFO core.email - ========== Message Begins ==========
+
+Time : August 1, 2019, 7:54 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Thu 01 Aug 2019 07:54:50 AM UTC,217 [8510] INFO core.email - ========== Message Begins ==========
+
+Time : August 1, 2019, 7:54 am
+Message Type : Success
+Message : Leave application email was sent to abdulmajid@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+[01-Aug-2019 08:04:33 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:05:52 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:15:06 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:31:46 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:33:01 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:33:41 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 08:56:12 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 12:38:02 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 12:38:44 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[01-Aug-2019 12:38:57 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[02-Aug-2019 05:57:23 UTC] Action "pim/viewphotograph" does not exist.
+[02-Aug-2019 05:57:23 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[02-Aug-2019 05:57:24 UTC] Action "pim/viewphotograph" does not exist.
+[02-Aug-2019 05:57:24 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[02-Aug-2019 10:10:07 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[02-Aug-2019 11:06:51 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+Tue 06 Aug 2019 07:36:16 AM UTC,050 [15461] INFO core.email - ========== Message Begins ==========
+
+Time : August 6, 2019, 7:36 am
+Message Type : Success
+Message : Leave application email was sent to naveed.ur.rehman@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Tue 06 Aug 2019 07:36:56 AM UTC,026 [3648] INFO core.email - ========== Message Begins ==========
+
+Time : August 6, 2019, 7:36 am
+Message Type : Success
+Message : Leave application email was sent to naveed.ur.rehman@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+[21-Aug-2019 11:34:22 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[21-Aug-2019 11:34:31 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[21-Aug-2019 13:03:51 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[22-Aug-2019 13:17:02 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[22-Aug-2019 13:22:45 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[22-Aug-2019 13:22:56 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+Fri 23 Aug 2019 07:45:26 AM UTC,078 [2004] INFO core.email - ========== Message Begins ==========
+
+Time : August 23, 2019, 7:45 am
+Message Type : Success
+Message : Leave application email was sent to ali.ijaz@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Fri 23 Aug 2019 08:03:06 AM UTC,546 [2008] INFO core.email - ========== Message Begins ==========
+
+Time : August 23, 2019, 8:03 am
+Message Type : Success
+Message : Leave application email was sent to umair@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:36:28 AM UTC,761 [9528] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:36 am
+Message Type : Success
+Message : Leave application email was sent to maavia.kamran@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:36:53 AM UTC,185 [9528] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:36 am
+Message Type : Success
+Message : Leave application email was sent to maavia.kamran@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:37:31 AM UTC,866 [10138] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:37 am
+Message Type : Success
+Message : Leave application email was sent to naveed.ur.rehman@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:38:04 AM UTC,267 [9533] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:38 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:38:21 AM UTC,941 [9534] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:38 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Mon 16 Sep 2019 06:38:46 AM UTC,280 [9535] INFO core.email - ========== Message Begins ==========
+
+Time : September 16, 2019, 6:38 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+[16-Sep-2019 07:56:39 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Sep-2019 08:02:28 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Sep-2019 08:03:54 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/themes/default/images/error-btn.png" (/).
+[16-Sep-2019 08:07:28 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Sep-2019 08:19:19 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Sep-2019 08:26:23 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[16-Sep-2019 08:26:49 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+Tue 17 Sep 2019 09:06:20 AM UTC,922 [2020] INFO core.email - ========== Message Begins ==========
+
+Time : September 17, 2019, 9:06 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Tue 17 Sep 2019 09:07:25 AM UTC,955 [2022] INFO core.email - ========== Message Begins ==========
+
+Time : September 17, 2019, 9:07 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
+Tue 17 Sep 2019 09:32:47 AM UTC,322 [2019] INFO core.email - ========== Message Begins ==========
+
+Time : September 17, 2019, 9:32 am
+Message Type : Success
+Message : Leave application email was sent to maavia.kamran@rebeltechnology.io
+
+========== Message Ends ==========
+
+
+Tue 17 Sep 2019 10:24:07 AM UTC,677 [2020] INFO core.email - ========== Message Begins ==========
+
+Time : September 17, 2019, 10:24 am
+Message Type : Success
+Message : Leave application email was sent to imran@eurekatechnologystudio.com
+
+========== Message Ends ==========
+
+
