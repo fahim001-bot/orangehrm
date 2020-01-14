@@ -1,0 +1,50 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+Remote Address : ::1
+
+Server Info
+
+Host : localhost
+PHP Version : 7.2.24-1+ubuntu18.04.1+deb.sury.org+1
+Server : Apache/2.4.29 (Ubuntu)
+Admin : webmaster@localhost
+
+Document Root : /var/www/html
+ROOT_PATH : /var/www/html/symfony/orangehrm-4.3.4/orangehrm-4.3.4
+
+OrangeHRM Installation Log
+
+Fri, 15 Nov 2019 16:48:32 +0500 DB Creation - Starting
+Fri, 15 Nov 2019 16:48:32 +0500 DB Creation - Done
+Fri, 15 Nov 2019 16:48:32 +0500 DB Creation - No Errors
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Starting
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Connected to the DB Server
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Selected the DB
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Reading DB Script
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Opened DB Script
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - Read DB script
+Fri, 15 Nov 2019 16:48:34 +0500 Fill Data Phase 1 - There are 289 Statements in the DB script
+Fri, 15 Nov 2019 16:51:10 +0500 MySQL Procedure Error:No database selected
+Fri, 15 Nov 2019 16:51:10 +0500 Fill Data Phase 1 - Done
+Fri, 15 Nov 2019 16:51:10 +0500 Fill Data Phase 1 - No Errors
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Starting
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Connected to the DB Server
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Selected the DB
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Reading DB Script
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Opened DB Script
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - Read DB script
+Fri, 15 Nov 2019 16:51:12 +0500 Fill Data Phase 2 - There are 167 Statements in the DB script
+Fri, 15 Nov 2019 16:51:20 +0500 MySQL Event Error:No database selected
+Fri, 15 Nov 2019 16:51:20 +0500 Fill Data Phase 1 - Connected to the DB Server
+Fri, 15 Nov 2019 16:51:21 +0500 Fill Data Phase 2 - Done
+Fri, 15 Nov 2019 16:51:21 +0500 Fill Data Phase 2 - No Errors
+Fri, 15 Nov 2019 16:51:24 +0500 Create DB user - Starting
+Fri, 15 Nov 2019 16:51:24 +0500 Create DB user - Done
+Fri, 15 Nov 2019 16:51:24 +0500 Create DB user - No Errors
+Fri, 15 Nov 2019 16:51:26 +0500 Create OrangeHRM user - Starting
+Fri, 15 Nov 2019 16:51:26 +0500 Create OrangeHRM user - Done
+Fri, 15 Nov 2019 16:51:26 +0500 Create OrangeHRM user - No Errors
+Fri, 15 Nov 2019 16:51:28 +0500 Write Conf - Starting
+Fri, 15 Nov 2019 16:51:28 +0500 Write Conf - Done
+Fri, 15 Nov 2019 16:51:28 +0500 Write Conf - No Errors
