@@ -1615,3 +1615,19 @@ Message : Leave application email was sent to imran@eurekatechnologystudio.com
 ========== Message Ends ==========
 
 
+[15-Nov-2019 10:31:50 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[15-Nov-2019 11:14:41 UTC] Empty module and/or action after parsing the URL "/installer.php" (/).
+[15-Nov-2019 11:14:41 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1013): sfFilterChain->execute()
+#3 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(1048): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 /var/www/html/orangehrm/symfony/cache/orangehrm/prod/config/config_core_compile.yml.php(687): sfFilterChain->execute()
+#5 /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/exception/sfError404Exception.class.php(49): sfController->forward('default', 'error404')
+#6 /var/www/html/orangehrm/symfon in /var/www/html/orangehrm/symfony/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php on line 96
+[27-Nov-2019 05:45:29 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[27-Nov-2019 05:47:10 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[27-Nov-2019 05:47:35 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[27-Nov-2019 06:36:06 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
+[27-Nov-2019 06:37:38 UTC] Empty module and/or action after parsing the URL "/webres_5cc83b08d42f86.60948938/orangehrmCorporateDirectoryPlugin/images/h1-bg.png" (/).
